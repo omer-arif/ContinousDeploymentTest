@@ -10,7 +10,7 @@ namespace ContinousDeploymentTest.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application. Orignal Publish --->  Azure Changed";
+            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application. Orignal Publish --->  Azure Changed ---> Test Change";
 
             return View();
         }
